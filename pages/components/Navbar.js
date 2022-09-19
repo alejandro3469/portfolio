@@ -2,9 +2,7 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import LinkedInLogo from "../../public/linkedin_logo.svg";
-
 import { motion } from "framer-motion";
-
 import GitHubLogo from "../../public/github_logo.svg";
 import SocialMedia from "./SocialMedia";
 import Button from "./Button";

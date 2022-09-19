@@ -156,6 +156,7 @@ footer div{
 .socialmedia-logo {
   width: 16px;
   height: 16px;
+  padding: 0;
 }
 
 /* Project cards */
@@ -295,6 +296,9 @@ footer div{
   display: flex;
   gap: 8px;
   align-items: center;
+}
+.link-small-socialm *{
+  align-self: center;
 }
 .footer-links {
   display: grid;
@@ -457,6 +461,7 @@ html:not([data-scroll='0']) {
   .card {
     padding-left: 0;
     padding-right: 0;
+
   }
   .dropdown-section {
     padding: 16px;

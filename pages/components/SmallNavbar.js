@@ -1,13 +1,8 @@
 import React from "react";
 import { useState } from "react";
-
 import Image from "next/image";
-
 import LinkedInLogo from "../../public/linkedin_logo.svg";
-
 import GitHubLogo from "../../public/github_logo.svg";
-
-
 import DribbbleLogo from "../../public/dribbble-logo.svg";
 import Link from "next/link";
 

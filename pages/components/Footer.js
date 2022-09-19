@@ -1,9 +1,8 @@
 import React from "react";
 import Image from "next/image";
-
 import LinkedInLogo from "../../public/linkedin_logo.svg";
-
 import GitHubLogo from "../../public/github_logo.svg";
+import DribbbleLogo from "../../public/dribbble-logo.svg";
 import Link from "next/link";
 import Button from "./Button";
 
@@ -79,6 +78,20 @@ export default function Footer() {
                         />
                       </div>
                       GitHub
+                    </a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="#">
+                    <a className="link-small-socialm">
+                      <div className="socialmedia-logo">
+                        <Image
+                          layout="responsive"
+                          src={DribbbleLogo}
+                          alt="LinkedIn logo"
+                        />
+                      </div>
+                      Dribbble
                     </a>
                   </Link>
                 </li>

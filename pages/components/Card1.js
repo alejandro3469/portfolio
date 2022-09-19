@@ -34,7 +34,7 @@ export default function Card() {
                   x: 0,
                   opacity: 1,
                   transition: {
-                    delay: 0.6,
+                    delay: 0.3,
                     ease: "easeOut",
                   },
                 },
@@ -55,7 +55,7 @@ export default function Card() {
                   x: 0,
                   opacity: 1,
                   transition: {
-                    delay: 0.6,
+                    delay: 0.3,
                     ease: "easeOut",
                   },
                 },

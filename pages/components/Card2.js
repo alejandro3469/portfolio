@@ -22,7 +22,7 @@ export default function Card2() {
                   x: 0,
                   opacity: 1,
                   transition: {
-                    delay: 0.6,
+                    delay: 0.3,
                     ease: "easeOut",
                   },
                 },
@@ -46,7 +46,7 @@ export default function Card2() {
                   x: 0,
                   opacity: 1,
                   transition: {
-                    delay: 0.6,
+                    delay: 0.3,
                     ease: "easeOut",
                   },
                 },

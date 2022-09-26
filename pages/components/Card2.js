@@ -7,6 +7,21 @@ import RandomImage from "../../public/random_image2.jpg";
 export default function Card2() {
   return (
     <div className="card">
+    <div className="project-image small">
+        <div className="project-image-container">
+          <Image layout="responsive" src={RandomImage} alt="LinkedIn logo" />
+          <p>
+            Photo by{" "}
+            <a href="https://unsplash.com/@rometheme?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
+              Yahdi Romelo
+            </a>{" "}
+            on{" "}
+            <a href="https://unsplash.com/s/photos/mockup-device?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
+              Unsplash
+            </a>
+          </p>
+        </div>
+      </div>
       <div className="project-data">
         <div className="title-excerpt">
           <div>
@@ -66,7 +81,7 @@ export default function Card2() {
           </div>
         </div>
       </div>
-      <div className="project-image">
+      <div className="project-image big">
         <div className="project-image-container">
           <Image layout="responsive" src={RandomImage} alt="LinkedIn logo" />
           <p>

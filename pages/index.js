@@ -26,7 +26,11 @@ export default function Home() {
       <SmallNavbar />
 
       <main>
+        
         <Banner />
+        <div>
+          <h2 style={{'text-align': 'center', 'margin-top': '32px'}}>Some of my personal projects</h2>
+        </div>
         <Card1 />
         <Card2 />
         <Card1 />

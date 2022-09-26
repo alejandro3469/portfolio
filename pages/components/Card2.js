@@ -84,9 +84,9 @@ export default function Card2() {
       <div className="project-image big">
         <div className="project-image-container">
           <Image layout="responsive" src={RandomImage} alt="LinkedIn logo" />
-          <p>
+          <p className="copyright-disclaimer">
             Photo by{" "}
-            <a href="https://unsplash.com/@rometheme?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
+            <a cla href="https://unsplash.com/@rometheme?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
               Yahdi Romelo
             </a>{" "}
             on{" "}

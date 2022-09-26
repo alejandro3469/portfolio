@@ -13,9 +13,15 @@ export default function Card() {
       <div className="project-image">
         <div className="project-image-container">
           <Image layout="responsive" src={RandomImage} alt="LinkedIn logo" />
-          <p>
-          Photo by <a href="https://unsplash.com/@charlesdeluvio?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">charlesdeluvio</a> on <a href="https://unsplash.com/s/photos/mockup-device?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  
+          <p className="copyright-disclaimer">
+            Photo by{" "}
+            <a href="https://unsplash.com/@charlesdeluvio?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
+              charlesdeluvio
+            </a>{" "}
+            on{" "}
+            <a href="https://unsplash.com/s/photos/mockup-device?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
+              Unsplash
+            </a>
           </p>
         </div>
       </div>
@@ -40,7 +46,9 @@ export default function Card() {
                 },
               }}
             >
-              <h2 className="project-title card-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+              <h2 className="project-title card-title">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </h2>
             </motion.div>
             <motion.p
               className="project-excerpt project-excerpt-card ultrasmall"

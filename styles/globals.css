@@ -129,7 +129,7 @@ footer div{
   font-weight: 500;
 }
 .button2 {
-  padding: 4px 16px;
+  padding: 4px 8px;
   background-color: #fafafa;
   transition: background-color 0.3s;
   white-space: nowrap;
@@ -233,7 +233,6 @@ footer div{
   width: 100px;
   height: 100px;
   border-radius: 4px;
-  background-color: #cfd8dc;
   opacity: 0.3;
 }
 .small-navbar {
@@ -314,6 +313,13 @@ footer div{
   justify-content: space-between;
 }
 
+.cards-container {
+  display: flex;
+  flex-direction: column;
+  padding: 64px 0;
+  gap: 64px;
+}
+
 
 
 .copy-item {
@@ -322,6 +328,14 @@ footer div{
 }
 .copy-button {
   border-left: 1px solid #bdbdbd;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  width: 106px;
+}
+.invissible {
+  display: none;
+  visibility: hidden;
 }
 .copy-email {
   padding: 4px 16px;
@@ -341,15 +355,15 @@ footer div{
   visibility: hidden;
 }
 .copyright-disclaimer {
-  color: #eeeeee;
+  color: #eeeeee  ;
 }
 
-
+/*
 html:not([data-scroll='0']) {
 
   
 }
-
+*/
 
 @media screen and (max-width: 992px) {
   main {

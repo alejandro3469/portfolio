@@ -1,10 +1,15 @@
-import React from "react";
+import React,  { useState } from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import Image from "next/image";
 import Portrait from "../../public/portrait.jpg";
 
 export default function Banner() {
+  const [copied, setCopied] = useState(false)
+  const copyToClipboard = () => {
+    navigator.clipboard.writeText("alejandro.perez3469@gmail.com");
+    setCopied(true)
+  };
   return (
     <div className="card">
       <div className="project-data">
@@ -69,16 +74,22 @@ export default function Banner() {
               </Link>
             </span>
             <span className="big-devices">
-              <div className="copy-item">
+              <div className="copy-item" onClick={copyToClipboard}>
                 <div className="copy-email">alejandro.perez3469@gmail.com</div>
-                <Link href="#" className="copy-element">
-                  <a className="button2 copy-button">
-                    <span className="material-symbols-outlined">
-                      content_copy
-                    </span>
-                    Copy
-                  </a>
-                </Link>
+                <div>
+                <div className={`button2 copy-button ${copied && 'invissible'}`}>
+                  <span className="material-symbols-outlined">
+                    content_copy
+                  </span>
+                  Copy
+                </div>
+                <div className={`button2 copy-button ${!copied && 'invissible'}`}>
+                  <span className="material-symbols-outlined">
+                    done
+                  </span>
+                  Copied
+                </div>
+                </div>
               </div>
             </span>
           </div>

@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
-import RandomImage from "../../public/random_image.jpg";
+import RandomImage from "../../public/countriesMockup.png";
 import LinkedInLogo from "../../public/linkedin_logo.svg";
 import GitHubLogo from "../../public/github_logo.svg";
 import DribbbleLogo from "../../public/dribbble-logo.svg";
@@ -13,16 +13,6 @@ export default function Card() {
       <div className="project-image">
         <div className="project-image-container">
           <Image layout="responsive" src={RandomImage} alt="LinkedIn logo" />
-          <p className="copyright-disclaimer">
-            Photo by{" "}
-            <a href="https://unsplash.com/@charlesdeluvio?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
-              charlesdeluvio
-            </a>{" "}
-            on{" "}
-            <a href="https://unsplash.com/s/photos/mockup-device?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
-              Unsplash
-            </a>
-          </p>
         </div>
       </div>
       <div className="project-data">

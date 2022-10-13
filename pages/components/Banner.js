@@ -96,7 +96,7 @@ export default function Banner() {
         </div>
       </div>
       <div className="project-image banner-image">
-        <div className="project-image-container">
+        <div className="banner-image-container">
           <Image layout="responsive" src={Portrait} alt="LinkedIn logo" />
           <p>
             Photo by{" "}

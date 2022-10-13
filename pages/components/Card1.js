@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
-import RandomImage from "../../public/countriesMockup.png";
+import RandomImage from "../../public/rest-api-ss.jpg";
 import LinkedInLogo from "../../public/linkedin_logo.svg";
 import GitHubLogo from "../../public/github_logo.svg";
 import DribbbleLogo from "../../public/dribbble-logo.svg";
@@ -37,7 +37,7 @@ export default function Card() {
               }}
             >
               <h2 className="project-title card-title">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Rest Countries API app using Next.js
               </h2>
             </motion.div>
             <motion.p
@@ -59,12 +59,13 @@ export default function Card() {
                 },
               }}
             >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
-              faucibus vestibulum erat, et scelerisque metus scelerisque nec.
+              Personal project for practicing the use of the Next.js hooks getStaticProps
+              and getStaticPaths using a restful api to generate dynamic content
+              and pages
             </motion.p>
           </div>
           <div className="banner-buttons">
-            <Link href="#">
+            <Link href="https://countries-api-nextjs-delta.vercel.app/">
               <a className="project-link">
                 See more
                 <span className="material-symbols-outlined">arrow_outward</span>

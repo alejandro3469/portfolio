@@ -209,9 +209,15 @@ footer div{
   flex-direction: column;
   gap: 32px;
 }
-.project-image-container {
+.banner-image-container {
   width: 360px;
   margin: auto;
+}
+.project-image-container {
+  width: 100%;
+  margin: auto;
+  
+  box-shadow: #D8DEE9 0px 8px 24px;
 }
 .project-data {
   display: flex;

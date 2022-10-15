@@ -178,11 +178,12 @@ footer div{
   margin-bottom: 16px;
 }
 .card-title {
-  background-color: #eeeeee;
-  padding: 8px;
+  /*background-color: #eeeeee;
+  padding: 8px;*/
 }
 .project-image {
   padding: 48px;
+  margin-bottom: 32px;
   flex: 2;
 }
 .banner-image {

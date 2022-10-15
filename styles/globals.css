@@ -372,6 +372,21 @@ html:not([data-scroll='0']) {
 }
 */
 
+.no-content {
+  font-size: 40px;
+  color: #bdbdbd;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  height: 100%;
+  padding: 64px 0;
+} 
+.no-content * {
+  font-size: 40px;
+  vertical-align: middle;
+}
+
 @media screen and (max-width: 992px) {
   main {
     padding: 0 32px;

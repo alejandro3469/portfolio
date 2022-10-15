@@ -7,6 +7,7 @@ import Card2 from "./components/Card2";
 import Footer from "./components/Footer";
 import MediumNavbar from "./components/MediumNavbar";
 import Navbar from "./components/Navbar";
+import Projects from "./components/Projects";
 import SmallNavbar from "./components/SmallNavbar";
 import UpperBanner from "./components/UpperBanner";
 
@@ -25,15 +26,7 @@ export default function Home() {
 
       <main>
         <Banner />
-        <div className="cards-container">
-          <div>
-            <h2 style={{ "text-align": "center", "margin-top": "32px" }}>
-              Some of my personal projects
-            </h2>
-          </div>
-          <Card1 />
-          <Card2 />
-        </div>
+        <Projects />
       </main>
 
       <Footer />

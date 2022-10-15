@@ -36,7 +36,7 @@ export default function SmallNavbar({ activeLink }) {
             <h4>Navigation</h4>
             <ul>
               <li>
-                <Link href="#">
+                <Link href="/">
                   <a
                     className={
                       activeLink === "blog" ? "active-link" : "unactive-link"
@@ -47,7 +47,7 @@ export default function SmallNavbar({ activeLink }) {
                 </Link>
               </li>
               <li>
-                <Link href="#">
+                <Link href="/about">
                   <a
                     className={
                       activeLink === "blog" ? "active-link" : "unactive-link"
@@ -58,7 +58,7 @@ export default function SmallNavbar({ activeLink }) {
                 </Link>
               </li>
               <li>
-                <Link href="#">
+                <Link href="/portfolio">
                   <a
                     className={
                       activeLink === "blog" ? "active-link" : "unactive-link"
@@ -69,7 +69,7 @@ export default function SmallNavbar({ activeLink }) {
                 </Link>
               </li>
               <li>
-                <Link href="#">
+                <Link href="/blog">
                   <a
                     className={
                       activeLink === "blog" ? "active-link" : "unactive-link"

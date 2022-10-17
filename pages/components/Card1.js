@@ -11,9 +11,17 @@ export default function Card() {
   return (
     <div className="card">
       <div className="project-image">
-        <div className="project-image-container">
-          <Image layout="responsive" src={RandomImage} alt="LinkedIn logo" />
-        </div>
+        <Link href="https://countries-api-nextjs-delta.vercel.app/">
+          <a>
+            <div className="project-image-container">
+              <Image
+                layout="responsive"
+                src={RandomImage}
+                alt="LinkedIn logo"
+              />
+            </div>
+          </a>
+        </Link>
       </div>
       <div className="project-data">
         <div className="title-excerpt">
@@ -36,9 +44,13 @@ export default function Card() {
                 },
               }}
             >
-              <h2 className="project-title card-title">
-                Rest Countries API app using Next.js
-              </h2>
+              <Link href="https://countries-api-nextjs-delta.vercel.app/">
+                <a>
+                  <h2 className="project-title card-title">
+                    Rest Countries API app using Next.js
+                  </h2>
+                </a>
+              </Link>
             </motion.div>
             <motion.p
               className="project-excerpt project-excerpt-card ultrasmall"
@@ -59,9 +71,9 @@ export default function Card() {
                 },
               }}
             >
-              Personal project for practicing the use of the Next.js hooks getStaticProps
-              and getStaticPaths using a restful api to generate dynamic content
-              and pages
+              Personal project for practicing the use of the Next.js hooks
+              getStaticProps and getStaticPaths using a restful api to generate
+              dynamic content and pages
             </motion.p>
           </div>
           <div className="banner-buttons">

@@ -29,22 +29,22 @@ export default function Footer() {
               <h4>Navigation</h4>
               <ul>
                 <li>
-                  <Link href="#">
+                  <Link href="/">
                     <a className="">Home</a>
                   </Link>
                 </li>
                 <li>
-                  <Link href="#">
+                  <Link href="/about">
                     <a className="">About</a>
                   </Link>
                 </li>
                 <li>
-                  <Link href="#">
+                  <Link href="/portfolio">
                     <a className="">Projects</a>
                   </Link>
                 </li>
                 <li>
-                  <Link href="#">
+                  <Link href="/blog">
                     <a className="">Blog</a>
                   </Link>
                 </li>
